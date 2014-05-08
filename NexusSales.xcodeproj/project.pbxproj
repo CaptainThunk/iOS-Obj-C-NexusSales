@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA5CB3C191BBE5B00CC7382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */; };
+		EBA5CB3E191BBE5B00CC7382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */; };
+		EBA5CB40191BBE5B00CC7382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */; };
+		EBA5CB46191BBE5B00CC7382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA5CB44191BBE5B00CC7382 /* InfoPlist.strings */; };
+		EBA5CB48191BBE5B00CC7382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5CB47191BBE5B00CC7382 /* main.m */; };
+		EBA5CB4C191BBE5B00CC7382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5CB4B191BBE5B00CC7382 /* AppDelegate.m */; };
+		EBA5CB4E191BBE5B00CC7382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA5CB4D191BBE5B00CC7382 /* Images.xcassets */; };
+		EBA5CB55191BBE5B00CC7382 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB54191BBE5B00CC7382 /* XCTest.framework */; };
+		EBA5CB56191BBE5B00CC7382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */; };
+		EBA5CB57191BBE5B00CC7382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */; };
+		EBA5CB5F191BBE5B00CC7382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA5CB5D191BBE5B00CC7382 /* InfoPlist.strings */; };
+		EBA5CB61191BBE5B00CC7382 /* NexusSalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5CB60191BBE5B00CC7382 /* NexusSalesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA5CB58191BBE5B00CC7382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA5CB30191BBE5B00CC7382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA5CB37191BBE5B00CC7382;
+			remoteInfo = NexusSales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBA5CB38191BBE5B00CC7382 /* NexusSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexusSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBA5CB43191BBE5B00CC7382 /* NexusSales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NexusSales-Info.plist"; sourceTree = "<group>"; };
+		EBA5CB45191BBE5B00CC7382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBA5CB47191BBE5B00CC7382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA5CB49191BBE5B00CC7382 /* NexusSales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NexusSales-Prefix.pch"; sourceTree = "<group>"; };
+		EBA5CB4A191BBE5B00CC7382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBA5CB4B191BBE5B00CC7382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBA5CB4D191BBE5B00CC7382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBA5CB53191BBE5B00CC7382 /* NexusSalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexusSalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA5CB54191BBE5B00CC7382 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBA5CB5C191BBE5B00CC7382 /* NexusSalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NexusSalesTests-Info.plist"; sourceTree = "<group>"; };
+		EBA5CB5E191BBE5B00CC7382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBA5CB60191BBE5B00CC7382 /* NexusSalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexusSalesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA5CB35191BBE5B00CC7382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB3E191BBE5B00CC7382 /* CoreGraphics.framework in Frameworks */,
+				EBA5CB40191BBE5B00CC7382 /* UIKit.framework in Frameworks */,
+				EBA5CB3C191BBE5B00CC7382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5CB50191BBE5B00CC7382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB55191BBE5B00CC7382 /* XCTest.framework in Frameworks */,
+				EBA5CB57191BBE5B00CC7382 /* UIKit.framework in Frameworks */,
+				EBA5CB56191BBE5B00CC7382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA5CB2F191BBE5B00CC7382 = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB41191BBE5B00CC7382 /* NexusSales */,
+				EBA5CB5A191BBE5B00CC7382 /* NexusSalesTests */,
+				EBA5CB3A191BBE5B00CC7382 /* Frameworks */,
+				EBA5CB39191BBE5B00CC7382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA5CB39191BBE5B00CC7382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB38191BBE5B00CC7382 /* NexusSales.app */,
+				EBA5CB53191BBE5B00CC7382 /* NexusSalesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA5CB3A191BBE5B00CC7382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */,
+				EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */,
+				EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */,
+				EBA5CB54191BBE5B00CC7382 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA5CB41191BBE5B00CC7382 /* NexusSales */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB4A191BBE5B00CC7382 /* AppDelegate.h */,
+				EBA5CB4B191BBE5B00CC7382 /* AppDelegate.m */,
+				EBA5CB4D191BBE5B00CC7382 /* Images.xcassets */,
+				EBA5CB42191BBE5B00CC7382 /* Supporting Files */,
+			);
+			path = NexusSales;
+			sourceTree = "<group>";
+		};
+		EBA5CB42191BBE5B00CC7382 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB43191BBE5B00CC7382 /* NexusSales-Info.plist */,
+				EBA5CB44191BBE5B00CC7382 /* InfoPlist.strings */,
+				EBA5CB47191BBE5B00CC7382 /* main.m */,
+				EBA5CB49191BBE5B00CC7382 /* NexusSales-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBA5CB5A191BBE5B00CC7382 /* NexusSalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB60191BBE5B00CC7382 /* NexusSalesTests.m */,
+				EBA5CB5B191BBE5B00CC7382 /* Supporting Files */,
+			);
+			path = NexusSalesTests;
+			sourceTree = "<group>";
+		};
+		EBA5CB5B191BBE5B00CC7382 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB5C191BBE5B00CC7382 /* NexusSalesTests-Info.plist */,
+				EBA5CB5D191BBE5B00CC7382 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA5CB37191BBE5B00CC7382 /* NexusSales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA5CB64191BBE5B00CC7382 /* Build configuration list for PBXNativeTarget "NexusSales" */;
+			buildPhases = (
+				EBA5CB34191BBE5B00CC7382 /* Sources */,
+				EBA5CB35191BBE5B00CC7382 /* Frameworks */,
+				EBA5CB36191BBE5B00CC7382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NexusSales;
+			productName = NexusSales;
+			productReference = EBA5CB38191BBE5B00CC7382 /* NexusSales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBA5CB52191BBE5B00CC7382 /* NexusSalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA5CB67191BBE5B00CC7382 /* Build configuration list for PBXNativeTarget "NexusSalesTests" */;
+			buildPhases = (
+				EBA5CB4F191BBE5B00CC7382 /* Sources */,
+				EBA5CB50191BBE5B00CC7382 /* Frameworks */,
+				EBA5CB51191BBE5B00CC7382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA5CB59191BBE5B00CC7382 /* PBXTargetDependency */,
+			);
+			name = NexusSalesTests;
+			productName = NexusSalesTests;
+			productReference = EBA5CB53191BBE5B00CC7382 /* NexusSalesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA5CB30191BBE5B00CC7382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nexus Industries";
+				TargetAttributes = {
+					EBA5CB52191BBE5B00CC7382 = {
+						TestTargetID = EBA5CB37191BBE5B00CC7382;
+					};
+				};
+			};
+			buildConfigurationList = EBA5CB33191BBE5B00CC7382 /* Build configuration list for PBXProject "NexusSales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBA5CB2F191BBE5B00CC7382;
+			productRefGroup = EBA5CB39191BBE5B00CC7382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA5CB37191BBE5B00CC7382 /* NexusSales */,
+				EBA5CB52191BBE5B00CC7382 /* NexusSalesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA5CB36191BBE5B00CC7382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB46191BBE5B00CC7382 /* InfoPlist.strings in Resources */,
+				EBA5CB4E191BBE5B00CC7382 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5CB51191BBE5B00CC7382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB5F191BBE5B00CC7382 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA5CB34191BBE5B00CC7382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB4C191BBE5B00CC7382 /* AppDelegate.m in Sources */,
+				EBA5CB48191BBE5B00CC7382 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5CB4F191BBE5B00CC7382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5CB61191BBE5B00CC7382 /* NexusSalesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA5CB59191BBE5B00CC7382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA5CB37191BBE5B00CC7382 /* NexusSales */;
+			targetProxy = EBA5CB58191BBE5B00CC7382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBA5CB44191BBE5B00CC7382 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA5CB45191BBE5B00CC7382 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBA5CB5D191BBE5B00CC7382 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA5CB5E191BBE5B00CC7382 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA5CB62191BBE5B00CC7382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBA5CB63191BBE5B00CC7382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBA5CB65191BBE5B00CC7382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
+				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBA5CB66191BBE5B00CC7382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
+				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBA5CB68191BBE5B00CC7382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NexusSales.app/NexusSales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NexusSalesTests/NexusSalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBA5CB69191BBE5B00CC7382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NexusSales.app/NexusSales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
+				INFOPLIST_FILE = "NexusSalesTests/NexusSalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA5CB33191BBE5B00CC7382 /* Build configuration list for PBXProject "NexusSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA5CB62191BBE5B00CC7382 /* Debug */,
+				EBA5CB63191BBE5B00CC7382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA5CB64191BBE5B00CC7382 /* Build configuration list for PBXNativeTarget "NexusSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA5CB65191BBE5B00CC7382 /* Debug */,
+				EBA5CB66191BBE5B00CC7382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBA5CB67191BBE5B00CC7382 /* Build configuration list for PBXNativeTarget "NexusSalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA5CB68191BBE5B00CC7382 /* Debug */,
+				EBA5CB69191BBE5B00CC7382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA5CB30191BBE5B00CC7382 /* Project object */;
+}
