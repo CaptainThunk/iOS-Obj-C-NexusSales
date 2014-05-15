@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB790EB31920DB64004E6FB2 /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB21920DB64004E6FB2 /* SalesViewController.m */; };
+		EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */; };
+		EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */; };
+		EB790EBC19210BE8004E6FB2 /* DivisionalData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EBB19210BE8004E6FB2 /* DivisionalData.m */; };
 		EBA5CB3C191BBE5B00CC7382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */; };
 		EBA5CB3E191BBE5B00CC7382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */; };
 		EBA5CB40191BBE5B00CC7382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */; };
@@ -19,6 +23,18 @@
 		EBA5CB57191BBE5B00CC7382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */; };
 		EBA5CB5F191BBE5B00CC7382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA5CB5D191BBE5B00CC7382 /* InfoPlist.strings */; };
 		EBA5CB61191BBE5B00CC7382 /* NexusSalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5CB60191BBE5B00CC7382 /* NexusSalesTests.m */; };
+		EBA5CB70191BBF6600CC7382 /* iphone_interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA5CB6F191BBF6600CC7382 /* iphone_interface.storyboard */; };
+		EBA5CB73191BDC6F00CC7382 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5CB72191BDC6F00CC7382 /* SplashViewController.m */; };
+		EBA5F1D01923AAAF00E875B5 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1CB1923AAAF00E875B5 /* JBBarChartView.m */; };
+		EBA5F1D11923AAAF00E875B5 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1CD1923AAAF00E875B5 /* JBChartView.m */; };
+		EBA5F1D21923AAAF00E875B5 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1CF1923AAAF00E875B5 /* JBLineChartView.m */; };
+		EBA5F1D61923C23300E875B5 /* ChartTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1D51923C23300E875B5 /* ChartTooltip.m */; };
+		EBA5F1D91923C4DA00E875B5 /* ChartTooltipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */; };
+		EBCB7572192390B10042230D /* SalesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCB7571192390B10042230D /* SalesDetailViewController.m */; };
+		EBED688E19224D5000BA140C /* CategorySalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED688D19224D5000BA140C /* CategorySalesModel.m */; };
+		EBED68911922590000BA140C /* CategoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED68901922590000BA140C /* CategoryData.m */; };
+		EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED68951922673100BA140C /* DivisionalSalesCell.m */; };
+		EBED68981922673100BA140C /* DivisionalSalesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBED68961922673100BA140C /* DivisionalSalesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB790EB11920DB64004E6FB2 /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
+		EB790EB21920DB64004E6FB2 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
+		EB790EB41920DB6E004E6FB2 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EB790EB7192106C5004E6FB2 /* DivisionalSalesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalSalesModel.h; sourceTree = "<group>"; };
+		EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalSalesModel.m; sourceTree = "<group>"; };
+		EB790EBA19210BE8004E6FB2 /* DivisionalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalData.h; sourceTree = "<group>"; };
+		EB790EBB19210BE8004E6FB2 /* DivisionalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalData.m; sourceTree = "<group>"; };
 		EBA5CB38191BBE5B00CC7382 /* NexusSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexusSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +72,29 @@
 		EBA5CB5C191BBE5B00CC7382 /* NexusSalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NexusSalesTests-Info.plist"; sourceTree = "<group>"; };
 		EBA5CB5E191BBE5B00CC7382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBA5CB60191BBE5B00CC7382 /* NexusSalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexusSalesTests.m; sourceTree = "<group>"; };
+		EBA5CB6F191BBF6600CC7382 /* iphone_interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iphone_interface.storyboard; sourceTree = "<group>"; };
+		EBA5CB71191BDC6F00CC7382 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		EBA5CB72191BDC6F00CC7382 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		EBA5F1CA1923AAAF00E875B5 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		EBA5F1CB1923AAAF00E875B5 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		EBA5F1CC1923AAAF00E875B5 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		EBA5F1CD1923AAAF00E875B5 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		EBA5F1CE1923AAAF00E875B5 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		EBA5F1CF1923AAAF00E875B5 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		EBA5F1D41923C23300E875B5 /* ChartTooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTooltip.h; sourceTree = "<group>"; };
+		EBA5F1D51923C23300E875B5 /* ChartTooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTooltip.m; sourceTree = "<group>"; };
+		EBA5F1D71923C4DA00E875B5 /* ChartTooltipLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTooltipLabel.h; sourceTree = "<group>"; };
+		EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTooltipLabel.m; sourceTree = "<group>"; };
+		EBCB7570192390B10042230D /* SalesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDetailViewController.h; sourceTree = "<group>"; };
+		EBCB7571192390B10042230D /* SalesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDetailViewController.m; sourceTree = "<group>"; };
+		EBED688B1922450A00BA140C /* DataFetchProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataFetchProtocol.h; sourceTree = "<group>"; };
+		EBED688C19224D5000BA140C /* CategorySalesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySalesModel.h; sourceTree = "<group>"; };
+		EBED688D19224D5000BA140C /* CategorySalesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySalesModel.m; sourceTree = "<group>"; };
+		EBED688F1922590000BA140C /* CategoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryData.h; sourceTree = "<group>"; };
+		EBED68901922590000BA140C /* CategoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryData.m; sourceTree = "<group>"; };
+		EBED68941922673100BA140C /* DivisionalSalesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalSalesCell.h; sourceTree = "<group>"; };
+		EBED68951922673100BA140C /* DivisionalSalesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalSalesCell.m; sourceTree = "<group>"; };
+		EBED68961922673100BA140C /* DivisionalSalesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivisionalSalesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +154,11 @@
 		EBA5CB41191BBE5B00CC7382 /* NexusSales */ = {
 			isa = PBXGroup;
 			children = (
+				EBA5F1D31923C21500E875B5 /* Utilities */,
+				EBA5F1C81923AA8A00E875B5 /* Libraries */,
+				EBA5CB6C191BBE7100CC7382 /* Controller */,
+				EBA5CB6B191BBE6E00CC7382 /* View */,
+				EBA5CB6A191BBE6A00CC7382 /* Model */,
 				EBA5CB4A191BBE5B00CC7382 /* AppDelegate.h */,
 				EBA5CB4B191BBE5B00CC7382 /* AppDelegate.m */,
 				EBA5CB4D191BBE5B00CC7382 /* Images.xcassets */,
@@ -142,6 +194,88 @@
 				EBA5CB5D191BBE5B00CC7382 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBA5CB6A191BBE6A00CC7382 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB790EB7192106C5004E6FB2 /* DivisionalSalesModel.h */,
+				EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */,
+				EB790EBA19210BE8004E6FB2 /* DivisionalData.h */,
+				EB790EBB19210BE8004E6FB2 /* DivisionalData.m */,
+				EBED688B1922450A00BA140C /* DataFetchProtocol.h */,
+				EBED688C19224D5000BA140C /* CategorySalesModel.h */,
+				EBED688D19224D5000BA140C /* CategorySalesModel.m */,
+				EBED688F1922590000BA140C /* CategoryData.h */,
+				EBED68901922590000BA140C /* CategoryData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EBA5CB6B191BBE6E00CC7382 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBCB756A192371DB0042230D /* Cells */,
+				EBA5CB6F191BBF6600CC7382 /* iphone_interface.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBA5CB6C191BBE7100CC7382 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5CB71191BDC6F00CC7382 /* SplashViewController.h */,
+				EBA5CB72191BDC6F00CC7382 /* SplashViewController.m */,
+				EB790EB11920DB64004E6FB2 /* SalesViewController.h */,
+				EB790EB21920DB64004E6FB2 /* SalesViewController.m */,
+				EB790EB41920DB6E004E6FB2 /* CategoryViewController.h */,
+				EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */,
+				EBCB7570192390B10042230D /* SalesDetailViewController.h */,
+				EBCB7571192390B10042230D /* SalesDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EBA5F1C81923AA8A00E875B5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5F1C91923AAAF00E875B5 /* JBChartView */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		EBA5F1C91923AAAF00E875B5 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5F1CA1923AAAF00E875B5 /* JBBarChartView.h */,
+				EBA5F1CB1923AAAF00E875B5 /* JBBarChartView.m */,
+				EBA5F1CC1923AAAF00E875B5 /* JBChartView.h */,
+				EBA5F1CD1923AAAF00E875B5 /* JBChartView.m */,
+				EBA5F1CE1923AAAF00E875B5 /* JBLineChartView.h */,
+				EBA5F1CF1923AAAF00E875B5 /* JBLineChartView.m */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		EBA5F1D31923C21500E875B5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5F1D41923C23300E875B5 /* ChartTooltip.h */,
+				EBA5F1D51923C23300E875B5 /* ChartTooltip.m */,
+				EBA5F1D71923C4DA00E875B5 /* ChartTooltipLabel.h */,
+				EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EBCB756A192371DB0042230D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EBED68941922673100BA140C /* DivisionalSalesCell.h */,
+				EBED68951922673100BA140C /* DivisionalSalesCell.m */,
+				EBED68961922673100BA140C /* DivisionalSalesCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA5CB46191BBE5B00CC7382 /* InfoPlist.strings in Resources */,
+				EBA5CB70191BBF6600CC7382 /* iphone_interface.storyboard in Resources */,
+				EBED68981922673100BA140C /* DivisionalSalesCell.xib in Resources */,
 				EBA5CB4E191BBE5B00CC7382 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +375,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCB7572192390B10042230D /* SalesDetailViewController.m in Sources */,
+				EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */,
+				EBED68911922590000BA140C /* CategoryData.m in Sources */,
+				EB790EBC19210BE8004E6FB2 /* DivisionalData.m in Sources */,
 				EBA5CB4C191BBE5B00CC7382 /* AppDelegate.m in Sources */,
+				EBA5F1D11923AAAF00E875B5 /* JBChartView.m in Sources */,
+				EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */,
+				EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */,
 				EBA5CB48191BBE5B00CC7382 /* main.m in Sources */,
+				EBA5F1D21923AAAF00E875B5 /* JBLineChartView.m in Sources */,
+				EBA5CB73191BDC6F00CC7382 /* SplashViewController.m in Sources */,
+				EBA5F1D91923C4DA00E875B5 /* ChartTooltipLabel.m in Sources */,
+				EBA5F1D01923AAAF00E875B5 /* JBBarChartView.m in Sources */,
+				EBED688E19224D5000BA140C /* CategorySalesModel.m in Sources */,
+				EB790EB31920DB64004E6FB2 /* SalesViewController.m in Sources */,
+				EBA5F1D61923C23300E875B5 /* ChartTooltip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +589,7 @@
 				EBA5CB66191BBE5B00CC7382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBA5CB67191BBE5B00CC7382 /* Build configuration list for PBXNativeTarget "NexusSalesTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +598,7 @@
 				EBA5CB69191BBE5B00CC7382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
