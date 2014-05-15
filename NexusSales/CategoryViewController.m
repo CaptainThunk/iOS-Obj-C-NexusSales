@@ -92,6 +92,12 @@ const CGFloat kGraphPadding = 10.f;
     [self setTooltipVisible: false touchPoint: CGPointMake(0.0f, 0.0f)];
 }
 
+- (UIColor *)barChartView:(JBBarChartView *)barChartView colorForBarViewAtIndex:(NSUInteger)index
+{
+    return (index % 2 == 0) ? [UIColor colorWithRed:0.376f green:0.51f blue:0.757f alpha:1.0f]
+                        : [UIColor colorWithRed:0.737f green:0.741f blue:0.749f alpha:1.0f];
+}
+
 - (void)setTooltipVisible:(BOOL)visible touchPoint:(CGPoint)touchPoint
 {
     float opacity = visible ? 1.0f : 0.0f;
@@ -108,7 +114,7 @@ const CGFloat kGraphPadding = 10.f;
     
     dispatch_block_t adjustPosition = ^{
         // Set tooltip position
-        float yAdjustment = touchPoint.y / 4.0f;
+        float yAdjustment = -100.0f;
         float xOrigin, yOrigin;
         
         if (touchPoint.x + 50.0f > self.view.frame.size.width) {

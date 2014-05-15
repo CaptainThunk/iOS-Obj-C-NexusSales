@@ -11,5 +11,6 @@
 
 @interface CategoryViewController : UIViewController<DataFetchProtocol>
 @property (weak, nonatomic) IBOutlet UIView *GraphView;
+@property (weak, nonatomic) IBOutlet UIView *HeaderView;
 
 @end
