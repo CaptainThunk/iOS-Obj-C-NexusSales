@@ -81,6 +81,15 @@ const CGFloat kGraphPadding = 10.f;
 - (void)barChartView:(JBBarChartView *)barChartView didSelectBarAtIndex:(NSUInteger)index touchPoint:(CGPoint)touchPoint
 {
     CategoryData *data = [self.model getItemAtIndex: index];
+    
+    //Show tooltip
+    [self setTooltipVisible: true touchPoint: touchPoint];
+    [self.tooltipLabel setText: data.Category];
+}
+
+- (void)didUnselectBarChartView:(JBBarChartView *)barChartView
+{
+    [self setTooltipVisible: false touchPoint: CGPointMake(0.0f, 0.0f)];
 }
 
 - (void)setTooltipVisible:(BOOL)visible touchPoint:(CGPoint)touchPoint
@@ -89,19 +98,44 @@ const CGFloat kGraphPadding = 10.f;
     
     if (!self.tooltip) {
         self.tooltip = [[ChartTooltip alloc] init];
-        self.tooltip.alpha = opacity;
         [self.view addSubview: self.tooltip];
     }
     
     if (!self.tooltipLabel) {
         self.tooltipLabel = [[ChartTooltipLabel alloc] init];
-        self.tooltipLabel.alpha = opacity;
         [self.view addSubview: self.tooltipLabel];
     }
     
     dispatch_block_t adjustPosition = ^{
         // Set tooltip position
+        float yAdjustment = touchPoint.y / 4.0f;
+        float xOrigin, yOrigin;
+        
+        if (touchPoint.x + 50.0f > self.view.frame.size.width) {
+            xOrigin = self.view.frame.size.width - 50.0f;
+        } else {
+            xOrigin = touchPoint.x;
+        }
+
+        if ((touchPoint.y - yAdjustment) < 15.0f) {
+            yOrigin = 15.0f;
+        } else {
+            yOrigin = touchPoint.y - yAdjustment;
+        }
+        
+        [self.tooltip setFrame: CGRectMake(xOrigin, yOrigin, 50.0f, 25.0f)];
+        [self.tooltipLabel setFrame: CGRectMake(xOrigin, yOrigin, 50.0f, 25.0f)];
     };
+    
+    dispatch_block_t adjustOpacity = ^{
+        // Set opacity
+        self.tooltip.alpha = self.tooltipLabel.alpha = opacity;
+    };
+    
+    if (visible) {
+        adjustPosition();
+    }
+    adjustOpacity();
 }
 
 @end
