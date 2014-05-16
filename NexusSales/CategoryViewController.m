@@ -11,8 +11,10 @@
 #import "JBBarChartView.h"
 #import "ChartTooltip.h"
 #import "ChartTooltipLabel.h"
+#import "InformationLabel.h"
 
-const CGFloat kGraphPadding = 10.f;
+const CGFloat kGraphPadding = 10.0f;
+NSNumberFormatter *currencyFormatter;
 
 @interface CategoryViewController () <JBBarChartViewDataSource, JBBarChartViewDelegate>
 
@@ -21,6 +23,7 @@ const CGFloat kGraphPadding = 10.f;
 @property (nonatomic, strong) JBBarChartView *chartView;
 @property (nonatomic, strong) ChartTooltip *tooltip;
 @property (nonatomic, strong) ChartTooltipLabel *tooltipLabel;
+@property (nonatomic, strong) InformationLabel *infoLabel;
 
 - (void)setTooltipVisible:(BOOL)visible touchPoint:(CGPoint)touchPoint;
 
@@ -28,12 +31,18 @@ const CGFloat kGraphPadding = 10.f;
 
 @implementation CategoryViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithCoder:aDecoder];
+    
     if (self) {
-        // Custom initialization
+        currencyFormatter = [[NSNumberFormatter alloc] init];
+        [currencyFormatter setNumberStyle: NSNumberFormatterCurrencyStyle];
+        NSString *digitSeperator = [[NSLocale currentLocale] objectForKey: NSLocaleGroupingSeparator];
+        [currencyFormatter setGroupingSeparator: digitSeperator];
+        [currencyFormatter setCurrencySymbol:@"£"];
     }
+    
     return self;
 }
 
@@ -85,6 +94,8 @@ const CGFloat kGraphPadding = 10.f;
     //Show tooltip
     [self setTooltipVisible: true touchPoint: touchPoint];
     [self.tooltipLabel setText: data.Category];
+    [self.infoLabel setTitleText: data.Category];
+    [self.infoLabel setInfoText: [currencyFormatter stringFromNumber: [NSNumber numberWithFloat: data.Sales]]];
 }
 
 - (void)didUnselectBarChartView:(JBBarChartView *)barChartView
@@ -112,6 +123,12 @@ const CGFloat kGraphPadding = 10.f;
         [self.view addSubview: self.tooltipLabel];
     }
     
+    if (!self.infoLabel) {
+        self.infoLabel = [[InformationLabel alloc] initWithFrame: self.HeaderView.frame];
+        [self.infoLabel setFrame: self.HeaderView.frame];
+        [self.view addSubview: self.infoLabel];
+    }
+    
     dispatch_block_t adjustPosition = ^{
         // Set tooltip position
         float yAdjustment = -100.0f;
@@ -135,7 +152,7 @@ const CGFloat kGraphPadding = 10.f;
     
     dispatch_block_t adjustOpacity = ^{
         // Set opacity
-        self.tooltip.alpha = self.tooltipLabel.alpha = opacity;
+        self.tooltip.alpha = self.tooltipLabel.alpha = self.infoLabel.alpha = opacity;
     };
     
     if (visible) {

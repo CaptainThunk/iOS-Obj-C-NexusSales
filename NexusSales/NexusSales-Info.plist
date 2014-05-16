@@ -26,6 +26,8 @@
 	<true/>
 	<key>UIMainStoryboardFile</key>
 	<string>iphone_interface</string>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>ipad_interface</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

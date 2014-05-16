@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1F9418192633E500A1D775 /* ipad_interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1F9417192633E500A1D775 /* ipad_interface.storyboard */; };
+		EB48170619251AB9007C0410 /* InformationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48170519251AB9007C0410 /* InformationLabel.m */; };
 		EB790EB31920DB64004E6FB2 /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB21920DB64004E6FB2 /* SalesViewController.m */; };
 		EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */; };
 		EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */; };
@@ -48,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB1F9417192633E500A1D775 /* ipad_interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad_interface.storyboard; sourceTree = "<group>"; };
+		EB48170419251AB9007C0410 /* InformationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationLabel.h; sourceTree = "<group>"; };
+		EB48170519251AB9007C0410 /* InformationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationLabel.m; sourceTree = "<group>"; };
 		EB790EB11920DB64004E6FB2 /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
 		EB790EB21920DB64004E6FB2 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
 		EB790EB41920DB6E004E6FB2 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
@@ -217,6 +222,7 @@
 			children = (
 				EBCB756A192371DB0042230D /* Cells */,
 				EBA5CB6F191BBF6600CC7382 /* iphone_interface.storyboard */,
+				EB1F9417192633E500A1D775 /* ipad_interface.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				EBA5F1D51923C23300E875B5 /* ChartTooltip.m */,
 				EBA5F1D71923C4DA00E875B5 /* ChartTooltipLabel.h */,
 				EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */,
+				EB48170419251AB9007C0410 /* InformationLabel.h */,
+				EB48170519251AB9007C0410 /* InformationLabel.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -356,6 +364,7 @@
 				EBA5CB46191BBE5B00CC7382 /* InfoPlist.strings in Resources */,
 				EBA5CB70191BBF6600CC7382 /* iphone_interface.storyboard in Resources */,
 				EBED68981922673100BA140C /* DivisionalSalesCell.xib in Resources */,
+				EB1F9418192633E500A1D775 /* ipad_interface.storyboard in Resources */,
 				EBA5CB4E191BBE5B00CC7382 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +388,7 @@
 				EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */,
 				EBED68911922590000BA140C /* CategoryData.m in Sources */,
 				EB790EBC19210BE8004E6FB2 /* DivisionalData.m in Sources */,
+				EB48170619251AB9007C0410 /* InformationLabel.m in Sources */,
 				EBA5CB4C191BBE5B00CC7382 /* AppDelegate.m in Sources */,
 				EBA5F1D11923AAAF00E875B5 /* JBChartView.m in Sources */,
 				EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */,
