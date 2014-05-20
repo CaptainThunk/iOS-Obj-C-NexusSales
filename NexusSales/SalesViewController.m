@@ -20,12 +20,11 @@
 
 @implementation SalesViewController
 
--(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+- (instancetype)initWithCoder:(NSCoder *)coder
 {
-    NSLog(@"init");
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithCoder:coder];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -34,7 +33,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //Set number formatter
+    // Set number formatter
     self.formatter = [[NSNumberFormatter alloc] init];
     [self.formatter setNumberStyle: NSNumberFormatterCurrencyStyle];
     NSString *groupSeperator = [[NSLocale currentLocale] objectForKey: NSLocaleGroupingSeparator];
@@ -42,9 +41,26 @@
     [self.formatter setCurrencySymbol:@"£"];
     [self.formatter setMaximumFractionDigits: 0];
     
-    //Set data table protocol stuff up
+    // Set data table protocol stuff up
     salesDataTable.dataSource = self;
     salesDataTable.delegate = self;
+    [salesDataTable reloadData];
+    
+    // Setup pull-to-refresh
+    UITableViewController *vc = [[UITableViewController alloc] init];
+    vc.tableView = salesDataTable;
+    
+    UIRefreshControl *refresh = [[UIRefreshControl alloc] init];
+    [refresh setTintColor: [UIColor colorWithRed:0.376f green:0.51f blue:0.757f alpha:1.0f]];
+    [refresh addTarget:self action:@selector(pullToRefresh:) forControlEvents:UIControlEventValueChanged];
+    
+    vc.refreshControl = refresh;
+}
+
+- (void)pullToRefresh:(id)sender
+{
+    [self fetch];
+    [(UIRefreshControl *)sender endRefreshing];
     [salesDataTable reloadData];
 }
 
