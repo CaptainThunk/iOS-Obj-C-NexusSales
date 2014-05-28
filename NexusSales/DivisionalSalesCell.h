@@ -14,5 +14,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *InvoicedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *IntakeLabel;
 @property (weak, nonatomic) IBOutlet NSObject *FilesOwner;
+@property (weak, nonatomic) IBOutlet UILabel *ShippedLabel;
 
 @end

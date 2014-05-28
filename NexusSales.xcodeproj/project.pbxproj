@@ -61,7 +61,7 @@
 		EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalSalesModel.m; sourceTree = "<group>"; };
 		EB790EBA19210BE8004E6FB2 /* DivisionalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalData.h; sourceTree = "<group>"; };
 		EB790EBB19210BE8004E6FB2 /* DivisionalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalData.m; sourceTree = "<group>"; };
-		EBA5CB38191BBE5B00CC7382 /* NexusSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexusSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA5CB38191BBE5B00CC7382 /* Nexus Sales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nexus Sales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA5CB3B191BBE5B00CC7382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBA5CB3D191BBE5B00CC7382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EBA5CB3F191BBE5B00CC7382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -139,7 +139,7 @@
 		EBA5CB39191BBE5B00CC7382 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBA5CB38191BBE5B00CC7382 /* NexusSales.app */,
+				EBA5CB38191BBE5B00CC7382 /* Nexus Sales.app */,
 				EBA5CB53191BBE5B00CC7382 /* NexusSalesTests.xctest */,
 			);
 			name = Products;
@@ -303,7 +303,7 @@
 			);
 			name = NexusSales;
 			productName = NexusSales;
-			productReference = EBA5CB38191BBE5B00CC7382 /* NexusSales.app */;
+			productReference = EBA5CB38191BBE5B00CC7382 /* Nexus Sales.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EBA5CB52191BBE5B00CC7382 /* NexusSalesTests */ = {
@@ -333,6 +333,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Nexus Industries";
 				TargetAttributes = {
+					EBA5CB37191BBE5B00CC7382 = {
+						DevelopmentTeam = L96KPFN887;
+					};
 					EBA5CB52191BBE5B00CC7382 = {
 						TestTargetID = EBA5CB37191BBE5B00CC7382;
 					};
@@ -476,6 +479,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Nexus Sales";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -508,6 +512,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Nexus Sales";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -519,10 +524,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
 				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nexus Sales";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,10 +540,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
 				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nexus Sales";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

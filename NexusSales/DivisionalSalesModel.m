@@ -37,6 +37,7 @@
                 data.Division = [divDetail objectForKey:@"Division"];
                 data.Sales = [[divDetail objectForKey:@"Sales"] floatValue];
                 data.Intake = [[divDetail objectForKey:@"Intake"] floatValue];
+                data.Shipped = [[divDetail objectForKey:@"Shipped"] floatValue];
                 
                 [salesData addObject:data];
             }

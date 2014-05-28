@@ -107,6 +107,7 @@
     cell.DivLabel.text = data.Division;
     cell.InvoicedLabel.text = [self.formatter stringFromNumber: [NSNumber numberWithFloat: data.Sales]];
     cell.IntakeLabel.text = [self.formatter stringFromNumber: [NSNumber numberWithFloat: data.Intake]];
+    cell.ShippedLabel.text = [self.formatter stringFromNumber: [NSNumber numberWithFloat: data.Shipped]];
     
     return cell;
 }

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EBA5CB37191BBE5B00CC7382"
-               BuildableName = "NexusSales.app"
+               BuildableName = "Nexus Sales.app"
                BlueprintName = "NexusSales"
                ReferencedContainer = "container:NexusSales.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA5CB37191BBE5B00CC7382"
-            BuildableName = "NexusSales.app"
+            BuildableName = "Nexus Sales.app"
             BlueprintName = "NexusSales"
             ReferencedContainer = "container:NexusSales.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA5CB37191BBE5B00CC7382"
-            BuildableName = "NexusSales.app"
+            BuildableName = "Nexus Sales.app"
             BlueprintName = "NexusSales"
             ReferencedContainer = "container:NexusSales.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA5CB37191BBE5B00CC7382"
-            BuildableName = "NexusSales.app"
+            BuildableName = "Nexus Sales.app"
             BlueprintName = "NexusSales"
             ReferencedContainer = "container:NexusSales.xcodeproj">
          </BuildableReference>

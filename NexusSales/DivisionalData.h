@@ -12,4 +12,5 @@
 @property (nonatomic, retain) NSString* Division;
 @property (nonatomic) float Sales;
 @property (nonatomic) float Intake;
+@property (nonatomic) float Shipped;
 @end
