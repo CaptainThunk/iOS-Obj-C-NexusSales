@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "splash.png"
+      "filename" : "LED-logo.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "splash-ipad.png"
+      "filename" : "LED-logo@2x.png"
     },
     {
       "idiom" : "universal",

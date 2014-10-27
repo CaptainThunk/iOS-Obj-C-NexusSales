@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		EB1F9418192633E500A1D775 /* ipad_interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1F9417192633E500A1D775 /* ipad_interface.storyboard */; };
 		EB48170619251AB9007C0410 /* InformationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48170519251AB9007C0410 /* InformationLabel.m */; };
+		EB66481A19E58AB2002F5EFF /* LEDSalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66481919E58AB2002F5EFF /* LEDSalesModel.m */; };
+		EB66481D19E58CD0002F5EFF /* DivisionalCategoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66481C19E58CD0002F5EFF /* DivisionalCategoryData.m */; };
+		EB6AEFB319E5383000F5F743 /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6AEFB219E5383000F5F743 /* CategoryListViewController.m */; };
+		EB73974819E692BD00A0E97B /* CategorySalesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB73974719E692BD00A0E97B /* CategorySalesCell.xib */; };
+		EB73974B19E69CD000A0E97B /* CategorySalesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB73974A19E69CD000A0E97B /* CategorySalesCell.m */; };
+		EB73974D19E6B41500A0E97B /* CategorySalesHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB73974C19E6B41500A0E97B /* CategorySalesHeaderCell.xib */; };
 		EB790EB31920DB64004E6FB2 /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB21920DB64004E6FB2 /* SalesViewController.m */; };
 		EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */; };
 		EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */; };
@@ -37,6 +43,7 @@
 		EBED68911922590000BA140C /* CategoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED68901922590000BA140C /* CategoryData.m */; };
 		EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED68951922673100BA140C /* DivisionalSalesCell.m */; };
 		EBED68981922673100BA140C /* DivisionalSalesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBED68961922673100BA140C /* DivisionalSalesCell.xib */; };
+		EBF4644E19E419CA00B482A5 /* DivisionalSalesHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF4644D19E419CA00B482A5 /* DivisionalSalesHeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		EB1F9417192633E500A1D775 /* ipad_interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad_interface.storyboard; sourceTree = "<group>"; };
 		EB48170419251AB9007C0410 /* InformationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationLabel.h; sourceTree = "<group>"; };
 		EB48170519251AB9007C0410 /* InformationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationLabel.m; sourceTree = "<group>"; };
+		EB66481819E58AB2002F5EFF /* LEDSalesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSalesModel.h; sourceTree = "<group>"; };
+		EB66481919E58AB2002F5EFF /* LEDSalesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSalesModel.m; sourceTree = "<group>"; };
+		EB66481B19E58CCF002F5EFF /* DivisionalCategoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalCategoryData.h; sourceTree = "<group>"; };
+		EB66481C19E58CD0002F5EFF /* DivisionalCategoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalCategoryData.m; sourceTree = "<group>"; };
+		EB6AEFB119E5383000F5F743 /* CategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
+		EB6AEFB219E5383000F5F743 /* CategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
+		EB73974719E692BD00A0E97B /* CategorySalesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorySalesCell.xib; sourceTree = "<group>"; };
+		EB73974919E69CD000A0E97B /* CategorySalesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySalesCell.h; sourceTree = "<group>"; };
+		EB73974A19E69CD000A0E97B /* CategorySalesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySalesCell.m; sourceTree = "<group>"; };
+		EB73974C19E6B41500A0E97B /* CategorySalesHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorySalesHeaderCell.xib; sourceTree = "<group>"; };
+		EB753EA019FA7D1600BE6F5C /* NexusSalesEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NexusSalesEnum.h; sourceTree = "<group>"; };
 		EB790EB11920DB64004E6FB2 /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
 		EB790EB21920DB64004E6FB2 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
 		EB790EB41920DB6E004E6FB2 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
@@ -100,6 +118,7 @@
 		EBED68941922673100BA140C /* DivisionalSalesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionalSalesCell.h; sourceTree = "<group>"; };
 		EBED68951922673100BA140C /* DivisionalSalesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionalSalesCell.m; sourceTree = "<group>"; };
 		EBED68961922673100BA140C /* DivisionalSalesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivisionalSalesCell.xib; sourceTree = "<group>"; };
+		EBF4644D19E419CA00B482A5 /* DivisionalSalesHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivisionalSalesHeaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +145,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB753E9F19FA7CEA00BE6F5C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EB753EA019FA7D1600BE6F5C /* NexusSalesEnum.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		EBA5CB2F191BBE5B00CC7382 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +231,7 @@
 		EBA5CB6A191BBE6A00CC7382 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB753E9F19FA7CEA00BE6F5C /* Constants */,
 				EB790EB7192106C5004E6FB2 /* DivisionalSalesModel.h */,
 				EB790EB8192106C5004E6FB2 /* DivisionalSalesModel.m */,
 				EB790EBA19210BE8004E6FB2 /* DivisionalData.h */,
@@ -213,6 +241,10 @@
 				EBED688D19224D5000BA140C /* CategorySalesModel.m */,
 				EBED688F1922590000BA140C /* CategoryData.h */,
 				EBED68901922590000BA140C /* CategoryData.m */,
+				EB66481819E58AB2002F5EFF /* LEDSalesModel.h */,
+				EB66481919E58AB2002F5EFF /* LEDSalesModel.m */,
+				EB66481B19E58CCF002F5EFF /* DivisionalCategoryData.h */,
+				EB66481C19E58CD0002F5EFF /* DivisionalCategoryData.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -238,6 +270,8 @@
 				EB790EB51920DB6E004E6FB2 /* CategoryViewController.m */,
 				EBCB7570192390B10042230D /* SalesDetailViewController.h */,
 				EBCB7571192390B10042230D /* SalesDetailViewController.m */,
+				EB6AEFB119E5383000F5F743 /* CategoryListViewController.h */,
+				EB6AEFB219E5383000F5F743 /* CategoryListViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -282,6 +316,11 @@
 				EBED68941922673100BA140C /* DivisionalSalesCell.h */,
 				EBED68951922673100BA140C /* DivisionalSalesCell.m */,
 				EBED68961922673100BA140C /* DivisionalSalesCell.xib */,
+				EBF4644D19E419CA00B482A5 /* DivisionalSalesHeaderCell.xib */,
+				EB73974719E692BD00A0E97B /* CategorySalesCell.xib */,
+				EB73974919E69CD000A0E97B /* CategorySalesCell.h */,
+				EB73974A19E69CD000A0E97B /* CategorySalesCell.m */,
+				EB73974C19E6B41500A0E97B /* CategorySalesHeaderCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -367,8 +406,11 @@
 				EBA5CB46191BBE5B00CC7382 /* InfoPlist.strings in Resources */,
 				EBA5CB70191BBF6600CC7382 /* iphone_interface.storyboard in Resources */,
 				EBED68981922673100BA140C /* DivisionalSalesCell.xib in Resources */,
+				EB73974D19E6B41500A0E97B /* CategorySalesHeaderCell.xib in Resources */,
 				EB1F9418192633E500A1D775 /* ipad_interface.storyboard in Resources */,
+				EB73974819E692BD00A0E97B /* CategorySalesCell.xib in Resources */,
 				EBA5CB4E191BBE5B00CC7382 /* Images.xcassets in Resources */,
+				EBF4644E19E419CA00B482A5 /* DivisionalSalesHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,17 +430,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCB7572192390B10042230D /* SalesDetailViewController.m in Sources */,
+				EB66481D19E58CD0002F5EFF /* DivisionalCategoryData.m in Sources */,
 				EB790EB9192106C5004E6FB2 /* DivisionalSalesModel.m in Sources */,
 				EBED68911922590000BA140C /* CategoryData.m in Sources */,
 				EB790EBC19210BE8004E6FB2 /* DivisionalData.m in Sources */,
 				EB48170619251AB9007C0410 /* InformationLabel.m in Sources */,
+				EB66481A19E58AB2002F5EFF /* LEDSalesModel.m in Sources */,
 				EBA5CB4C191BBE5B00CC7382 /* AppDelegate.m in Sources */,
 				EBA5F1D11923AAAF00E875B5 /* JBChartView.m in Sources */,
+				EB73974B19E69CD000A0E97B /* CategorySalesCell.m in Sources */,
 				EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */,
 				EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */,
 				EBA5CB48191BBE5B00CC7382 /* main.m in Sources */,
 				EBA5F1D21923AAAF00E875B5 /* JBLineChartView.m in Sources */,
 				EBA5CB73191BDC6F00CC7382 /* SplashViewController.m in Sources */,
+				EB6AEFB319E5383000F5F743 /* CategoryListViewController.m in Sources */,
 				EBA5F1D91923C4DA00E875B5 /* ChartTooltipLabel.m in Sources */,
 				EBA5F1D01923AAAF00E875B5 /* JBBarChartView.m in Sources */,
 				EBED688E19224D5000BA140C /* CategorySalesModel.m in Sources */,
