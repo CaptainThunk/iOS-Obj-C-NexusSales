@@ -58,6 +58,23 @@
         }
     }
 
+    [salesData sortUsingComparator: ^(id obj1, id obj2) {
+        DivisionalCategoryData *d1 = (DivisionalCategoryData*)obj1;
+        DivisionalCategoryData *d2 = (DivisionalCategoryData*)obj2;
+
+        float d1Total = d1.BGIn + d1.BGOut + d1.NILIn + d1.NILOut + d1.OtherIn + d1.OtherOut;
+        float d2Total = d2.BGIn + d2.BGOut + d2.NILIn + d2.NILOut + d2.OtherIn + d2.OtherOut;
+
+        if (d1Total > d2Total) {
+            return (NSComparisonResult)NSOrderedAscending;
+        } else if (d2Total > d1Total)
+        {
+            return (NSComparisonResult)NSOrderedDescending;
+        } else {
+            return (NSComparisonResult)NSOrderedSame;
+        }
+    }];
+
     return salesData;
 }
 

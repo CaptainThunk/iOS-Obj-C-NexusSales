@@ -51,6 +51,24 @@
             lastUpdated = [NSDate date];
         }
     }
+
+    [salesData sortUsingComparator: ^(id obj1, id obj2) {
+        DivisionalData *d1 = (DivisionalData*)obj1;
+        DivisionalData *d2 = (DivisionalData*)obj2;
+
+        float d1Total = d1.Intake + d1.Shipped;
+        float d2Total = d2.Intake + d2.Shipped;
+
+        if (d1Total > d2Total) {
+            return (NSComparisonResult)NSOrderedAscending;
+        } else if (d2Total > d1Total)
+        {
+            return (NSComparisonResult)NSOrderedDescending;
+        }
+
+        return (NSComparisonResult)NSOrderedSame;
+    }];
+
     return salesData;
 }
 
