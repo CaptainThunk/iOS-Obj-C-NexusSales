@@ -21,8 +21,8 @@
 {
     if (self = [super init]) {
         selectedScope = scope;
-        urls = [NSArray arrayWithObjects:@"https://services.nexusinds.com/SalesData/SalesData.svc/GetCategoryData/LED/Daily",
-                @"https://services.nexusinds.com/SalesData/SalesData.svc/GetCategoryData/LED/Monthly",
+        urls = [NSArray arrayWithObjects:@"https://************/SalesData.svc/GetCategoryData/LED/Daily",
+                @"https://*************/SalesData.svc/GetCategoryData/LED/Monthly",
                 nil];
     }
     return self;

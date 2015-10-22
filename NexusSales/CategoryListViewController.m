@@ -10,8 +10,10 @@
 #import "LEDSalesModel.h"
 #import "CategorySalesCell.h"
 
+
 @interface CategoryListViewController ()
 {
+    UIPinchGestureRecognizer *pinchRecogniser;
     LEDSalesModel *model;
     UIRefreshControl *refreshControl;
 }
@@ -24,12 +26,15 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
+        pinchRecogniser = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchGesture:)];
     }
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view addGestureRecognizer:pinchRecogniser];
+
     // Do any additional setup after loading the view.
     [categoryDataTable setSeparatorInset: UIEdgeInsetsZero];
 
@@ -175,6 +180,29 @@ NSString* formatLabelData(float value)
     }
 
     return labelData;
+}
+
+- (void)pinchGesture:(UIPinchGestureRecognizer *)gestureRecogniser
+{
+    NSLog(@"Pinch:- Scale: %f, Velocity: %f\n", gestureRecogniser.scale, gestureRecogniser.velocity);
+    CGFloat pointDelta = (gestureRecogniser.velocity > 0 ? 1 : -1);
+    //[self changeFontSizeOfSubViews:self.view withPointDelta:pointDelta];
+}
+
+- (void)changeFontSizeOfSubViews:(UIView *)view withPointDelta:(CGFloat)delta
+{
+    if ([view isKindOfClass:[UILabel class]]) {
+        UILabel *label = (UILabel *)view;
+        UIFont *font = [label font];
+        CGFloat fontSize = font.pointSize+delta;
+        NSString *fontName = font.fontName;
+
+        label.font = [UIFont fontWithName:fontName size:fontSize];
+    }
+
+    for (UIView* subView in [view subviews]) {
+        [self changeFontSizeOfSubViews:subView withPointDelta:delta];
+    }
 }
 
 @end

@@ -23,7 +23,7 @@
 {
     NSTimeInterval diff = [[NSDate date] timeIntervalSinceDate: lastUpdated];
     if (diff > 300 || lastUpdated == nil) {
-        NSURL *url = [NSURL URLWithString:@"https://services.nexusinds.com/SalesData/SalesData.svc/GetSalesIntakeData/"];
+        NSURL *url = [NSURL URLWithString:@"https://***********/SalesData.svc/GetSalesIntakeData/"];
         NSData *jsonData = [NSData dataWithContentsOfURL:url];
         
         if (jsonData != nil) {

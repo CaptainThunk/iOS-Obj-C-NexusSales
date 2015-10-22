@@ -38,6 +38,7 @@
 		EBA5F1D21923AAAF00E875B5 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1CF1923AAAF00E875B5 /* JBLineChartView.m */; };
 		EBA5F1D61923C23300E875B5 /* ChartTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1D51923C23300E875B5 /* ChartTooltip.m */; };
 		EBA5F1D91923C4DA00E875B5 /* ChartTooltipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */; };
+		EBC619CD1B0E306700358E31 /* PinchZoomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC619CB1B0E306700358E31 /* PinchZoomTableView.m */; };
 		EBCB7572192390B10042230D /* SalesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCB7571192390B10042230D /* SalesDetailViewController.m */; };
 		EBED688E19224D5000BA140C /* CategorySalesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED688D19224D5000BA140C /* CategorySalesModel.m */; };
 		EBED68911922590000BA140C /* CategoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED68901922590000BA140C /* CategoryData.m */; };
@@ -108,6 +109,8 @@
 		EBA5F1D51923C23300E875B5 /* ChartTooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTooltip.m; sourceTree = "<group>"; };
 		EBA5F1D71923C4DA00E875B5 /* ChartTooltipLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTooltipLabel.h; sourceTree = "<group>"; };
 		EBA5F1D81923C4DA00E875B5 /* ChartTooltipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTooltipLabel.m; sourceTree = "<group>"; };
+		EBC619CB1B0E306700358E31 /* PinchZoomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchZoomTableView.m; sourceTree = "<group>"; };
+		EBC619CC1B0E306700358E31 /* PinchZoomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchZoomTableView.h; sourceTree = "<group>"; };
 		EBCB7570192390B10042230D /* SalesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDetailViewController.h; sourceTree = "<group>"; };
 		EBCB7571192390B10042230D /* SalesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDetailViewController.m; sourceTree = "<group>"; };
 		EBED688B1922450A00BA140C /* DataFetchProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataFetchProtocol.h; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 		EBA5F1D31923C21500E875B5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				EBC619CB1B0E306700358E31 /* PinchZoomTableView.m */,
+				EBC619CC1B0E306700358E31 /* PinchZoomTableView.h */,
 				EBA5F1D41923C23300E875B5 /* ChartTooltip.h */,
 				EBA5F1D51923C23300E875B5 /* ChartTooltip.m */,
 				EBA5F1D71923C4DA00E875B5 /* ChartTooltipLabel.h */,
@@ -440,6 +445,7 @@
 				EBA5F1D11923AAAF00E875B5 /* JBChartView.m in Sources */,
 				EB73974B19E69CD000A0E97B /* CategorySalesCell.m in Sources */,
 				EBED68971922673100BA140C /* DivisionalSalesCell.m in Sources */,
+				EBC619CD1B0E306700358E31 /* PinchZoomTableView.m in Sources */,
 				EB790EB61920DB6E004E6FB2 /* CategoryViewController.m in Sources */,
 				EBA5CB48191BBE5B00CC7382 /* main.m in Sources */,
 				EBA5F1D21923AAAF00E875B5 /* JBLineChartView.m in Sources */,
@@ -575,6 +581,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
 				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "Nexus Sales";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -591,6 +598,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NexusSales/NexusSales-Prefix.pch";
 				INFOPLIST_FILE = "NexusSales/NexusSales-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "Nexus Sales";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
